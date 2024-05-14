@@ -1636,16 +1636,44 @@ h1 {
   margin-bottom: 20px;
 }
 
+@media screen and (max-width: 320px) {
+  /* Estilos para dispositivos móviles muy pequeños (por ejemplo, iPhone SE) */
+  h1 {
+      font-size: 0.8em;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  /* Estilos para dispositivos móviles pequeños (por ejemplo, iPhone 6/7/8) */
+  h1 {
+      font-size: 1em;
+  }
+}
+
 /* Media Queries para tamaños de pantalla diferentes */
 @media screen and (max-width: 600px) {
   /* Estilos para pantallas pequeñas */
   h1 {
-      font-size: 1.2em;
+      font-size: 1.1em;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  /* Estilos para dispositivos móviles medianos (por ejemplo, iPhone X, Galaxy S9/S10) */
+  h1 {
+      font-size: 1.1em;
   }
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   /* Estilos para pantallas medianas */
+  h1 {
+      font-size: 1.3em;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Estilos para tabletas y dispositivos móviles de tamaño medio */
   h1 {
       font-size: 1.3em;
   }
@@ -1659,3 +1687,4 @@ h1 {
 }
 
 /* Agregar más estilos según sea necesario */
+
