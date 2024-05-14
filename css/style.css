@@ -38,7 +38,7 @@ body {
 }
 
 .greetings {
-    font-size: 7rem;
+    font-size: 4rem;
     font-weight: 900;
 }
 
@@ -66,7 +66,7 @@ body {
 }
 
 .description {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     margin-bottom: 20px;
 }
 
@@ -81,10 +81,10 @@ body {
 /* Para dispositivos con pantalla de hasta 320px (por ejemplo, iPhone SE) */
 @media screen and (max-width: 320px) {
     .greetings {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
     .description {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .button a {
         font-size: 0.9rem;
@@ -94,10 +94,10 @@ body {
 /* Para dispositivos con pantalla de 321px a 375px (por ejemplo, iPhone 6/7/8) */
 @media screen and (min-width: 321px) and (max-width: 375px) {
     .greetings {
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .description {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
     .button a {
         font-size: 1rem;
@@ -107,10 +107,10 @@ body {
 /* Para dispositivos con pantalla de 376px a 414px (por ejemplo, iPhone X/XS/11 Pro) */
 @media screen and (min-width: 376px) and (max-width: 414px) {
     .greetings {
-        font-size: 4.5rem;
+        font-size: 3.5rem;
     }
     .description {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
     .button a {
         font-size: 1.1rem;
@@ -120,7 +120,7 @@ body {
 /* Para dispositivos con pantalla de 415px a 574px (por ejemplo, iPhone 12 Pro Max) */
 @media screen and (min-width: 415px) and (max-width: 574px) {
     .greetings {
-        font-size: 5rem;
+        font-size: 4rem;
     }
     .description {
         font-size: 1.5rem;
